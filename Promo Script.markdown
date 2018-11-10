@@ -14,5 +14,7 @@ During the “Complete my course” section, we want to show two types of footag
 Please specify the video segments you want to use for each type, using timestamps from your unedited demo recordings
 (Record footage specially for the promo video, if you need to.): 
 
-* **Demo:** See *Promo - Demo Footage.mp4* in the promo folder!
-* **Code:** Raw Demo 1-03-3 | 0:40 through 1:17 (with all of my terrible typing cut out, please 🤭)
+* **Demo:** Use the full-screen iPad recording with scaling/rotating the monkey and banana simultaneously
+* **Code:** 
+	* GR - Demo - 1-07-4 | 2:31 - 5:14 (minus bad typing)
+	* GR - Demo - 1-08-01 | 1:53 - End
