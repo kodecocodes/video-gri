@@ -44,7 +44,7 @@ authors:
 
 # The list of parts & episodes
 parts:
-  - title: ~
+  - title: "Gesture Recognizers in iOS"
     description: |
       ~
     episodes:
