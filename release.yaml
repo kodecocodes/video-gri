@@ -1,0 +1,140 @@
+---
+# Video Metadata File
+# The shortcode is shared across versions, but unique between courses.
+shortcode: gri
+version: 1.0
+version_description: First Version
+title: Gesture Recognizers in iOS
+course_type: core
+description_md: |
+  Touch interaction is a fundamental component of iOS and UIGestureRecognizer is the key to easy-to-use gestures beyond simple button taps. Learn about it here!
+short_description: |
+  Touch interaction is a fundamental component of iOS and UIGestureRecognizer is the key to easy-to-use gestures beyond simple button taps. Learn about it here!
+# Date formatted as yyyy-mm-dd. The version will be available at midnight, UTC.
+released_at: 2018-11-27
+# A link to a specific branch of the materials repo—a public repo hosted on GitHub.
+materials_url: https://github.com/raywenderlich/video-gri-materials/tree/editions/1.0
+# Fill each of these in
+professional: false
+difficulty: beginner
+# P/L/E Can be be overridden on a per-episode basis if required. If not, these will
+# apply for every episode in the course.
+platform: iOS 12
+language: Swift 4.2
+editor: Xcode 10
+# Domains and categories are both arrays
+domains:
+  - ios
+# Category choices can be found at raywenderlich.com/library, in the search filter options.
+categories: ["User Interface"]
+who_is_this_for_md: |
+  ~
+covered_concepts_md: |
+  ~
+authors:
+  # Roles: instructor, illustrator, editor, tech_editor, video_editor
+  # Use the rw.com username.
+  - username: catie
+    role: instructor
+  - username: jessycatterwaul
+    role: instructor
+  - username: csweigart
+    role: video_editor
+
+
+# The list of parts & episodes
+parts:
+  - title: ~
+    description: |
+      ~
+    episodes:
+    - title: "Introduction"
+      ref: P01E01
+      free: true
+      description_md: |
+        Learn a bit of the history of gesture recognizers in iOS, and what we will be covering in this course.
+      short_description: |
+        Learn a bit of the history of gesture recognizers in iOS, and what we will be covering in this course.
+      authors_notes_md: |
+        ~
+    - title: "UIPanGestureRecognizer"
+      ref: PO1E02
+      free: false
+      description_md: |
+        Attach a UIPanGestureRecognizer to a view in Interface Builder, and write some Swift to have your pan gestures interact with that view.
+      short_description: |
+        Attach a UIPanGestureRecognizer to a view in Interface Builder, and write some Swift to have your pan gestures interact with that view.
+      authors_notes_md: |
+        ~
+    - title: "Deceleration"
+      ref: P01E03
+      free: false
+      description_md: |
+        Leverage UIKit's animation API, combined with information from your pan gesture recognizer, to decelerate a view you toss around the screen.
+      short_description: |
+        Leverage UIKit's animation API, combined with information from your pan gesture recognizer, to decelerate a view you toss around the screen.
+      authors_notes_md: |
+        ~
+    - title: "Pinch & Rotation"
+      ref: P01E04
+      free: false
+      description_md: |
+        Manipulate the CGAffineTransform associated with a view based on pinch and rotation gestures. Also, learn to use multiple gesture recognizers at once!
+      short_description: |
+        Manipulate the CGAffineTransform associated with a view based on pinch and rotation gestures. Also, learn to use multiple gesture recognizers at once!
+      authors_notes_md: |
+        ~
+    - title: "Challenge: Multiple Views"
+      ref: P01E05
+      free: false
+      description_md: |
+        Practice working with the types of gesture recognizers you've already learned about, resulting in simultaneous control of multiple views with multiple gestures.
+      short_description: |
+        Practice working with the types of gesture recognizers you've already learned about, resulting in simultaneous control of multiple views with multiple gestures.
+      authors_notes_md: |
+        ~
+    - title: "Programmatic UIGestureRecognizers"
+      ref: P01E06
+      free: false
+      description_md: |
+        Extend your knowledge of creating gesture recognizers, from Interface Builder, to Swift, and get introduced to UIGestureRecognizerDelegate.
+      short_description: |
+        Extend your knowledge of creating gesture recognizers, from Interface Builder, to Swift, and get introduced to UIGestureRecognizerDelegate.
+      authors_notes_md: |
+        ~
+    - title: "Custom UIGestureRecognizers"
+      ref: P01E07
+      free: false
+      description_md: |
+        Now that you're familiar with how to use existing gesture recognizers, you'll dive into their inner workings, creating one of your own.
+      short_description: |
+        Now that you're familiar with how to use existing gesture recognizers, you'll dive into their inner workings, creating one of your own.
+      authors_notes_md: |
+        ~
+    - title: "Introduction to simd"
+      ref: P01E08
+      free: false
+      description_md: |
+        Even though the app you've made in this course is small, you've written quite a bit of math-heavy code. simd can make that easier on you in the future!
+      short_description: |
+        Even though the app you've made in this course is small, you've written quite a bit of math-heavy code. simd can make that easier on you in the future!
+      authors_notes_md: |
+        ~
+    - title: "Challenge: simd"
+      ref: P01E09
+      free: false
+      description_md: |
+        With a primer to simd under your belt, see if you can finish tidying up the vector math that your gesture recognizers rely on.
+      short_description: |
+        With a primer to simd under your belt, see if you can finish tidying up the vector math that your gesture recognizers rely on.
+      authors_notes_md: |
+        ~
+    - title: "Conclusion"
+      ref: P01E10
+      free: false
+      description_md: |
+        Review all the types of UIGestureRecognizers you've learned about, and get a recommendation on where to learn more.
+      short_description: |
+        Review all the types of UIGestureRecognizers you've learned about, and get a recommendation on where to learn more.
+      authors_notes_md: |
+        ~
