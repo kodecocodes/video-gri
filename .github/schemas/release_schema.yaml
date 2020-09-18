@@ -1,0 +1,42 @@
+shortcode: regex('^\w+$')
+version: num(min=1.0)
+version_description: str()
+title: str()
+course_type: enum('core', 'spotlight')
+description_md: str()
+short_description: str()
+released_at: day()
+materials_url: str()
+professional: bool()
+difficulty: enum('beginner', 'intermediate', 'advanced')
+platform: str()
+language: str()
+editor: str()
+domains: list(enum('ios', 'android', 'flutter', 'server-side-swift', 'unity'))
+categories: list(str())
+who_is_this_for_md: str()
+covered_concepts_md: str()
+authors: list(include('author'))
+parts: list(include('part'))
+
+---
+author:
+  username: regex('^\w+$')
+  role: enum('instructor', 'illustrator', 'editor', 'tech_editor', 'video_editor')
+---
+part:
+  title: str()
+  description: str()
+  episodes: list(include('episode'))
+---
+episode:
+  title: str()
+  ref: str()
+  free: bool()
+  description_md: str()
+  short_description: str()
+  authors_notes_md: str(required=False)
+  authors: list(include('author'), required=False)
+  platform: str(required=False)
+  language: str(required=False)
+  editor: str(required=False)
