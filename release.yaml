@@ -13,7 +13,7 @@ short_description: |
 # Date formatted as yyyy-mm-dd. The version will be available at midnight, UTC.
 released_at: 2018-11-27
 # A link to a specific branch of the materials repo—a public repo hosted on GitHub.
-materials_url: https://github.com/raywenderlich/video-gri-materials/tree/editions/1.0
+materials_url: https://github.com/raywenderlich/video-gri-materials/tree/versions/1.0
 # Fill each of these in
 professional: false
 difficulty: beginner
